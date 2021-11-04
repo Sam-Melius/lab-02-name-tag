@@ -1,10 +1,18 @@
-const changeEl = document.getElementById
-('middle');
+const newName = document.getElementById
+('new');
 
-console.log(change);
+const inputName = document.getElementById 
+('input');
 
+const changeName = document.getElementById 
+('change');
 
+/* const someWords = myInput.value */
 
-myButton.addEventListener('click', () => {
+changeName.addEventListener('click', () => {
     // post-click logic goes here!
+    newName.textContent = inputName.value;
+
+    console.log(newName);
 });
+

@@ -19,9 +19,9 @@ body, html{
 }
 
 
-h1 {
+p {
     margin: 0;
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: cursive;
 
 }
@@ -76,4 +76,16 @@ h4 {
     border-radius: 0px 0px 10px 10px;
     
     
+}
+
+button {
+
+    /* appearance: auto; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+
 }
